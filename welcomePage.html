@@ -1,10 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+<!--layout template by w3schools.com-->
+<title>Resume Builder Welcome </title>
+<meta charset="utf-8">
+    <link href="css/finalStyle.css" rel="stylesheet">
+<script src="js/welcomeScript.js"></script>
+<style>
+
+</style>
 </head>
+
 <body>
+
+<nav class="sidenav">
+  <a href="menuPage.html">Menu</a>
+  <a href="generatorPage.html">Resume Generator</a>
+  <a href="editorPage.html">Resume Editor</a>
+  <a href="toolsPage.html">Tools</a>
+  <a href="signupPage.html">Sign Up</a>
+  <a href="accountPage.html">Account</a>
+  <a href="settingsPage.html">Settings</a>
+</nav>
+
+<div class="content">
+  <h2>Welcome to Resume Builder!</h2>
+  <p>We've made a resume builder to help make sure your resumes are professional and properly reflect your skills and experience!</p>
+
+  <div>
+    <h3>Log In</h3>
+    <form onsubmit="login()">
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" placeholder="Email" required><br>
+        <label for="password">Password:</label><br>
+        <input type="text" id="password" name="password" placeholder="Password" required><br><br>
+        <input type="submit" value="Log In">
+    </form>
+
+  </div>
+
+
+  <p>Sign up with us to keep all your resumes and information in one place!</p>
+  <a href="signupPage.html" class="button">Sign Up!</a>
+
+  <p>Don't want to keep everything in one place? It's ok, we get it. Click here to just use the generator!</p>
+  <a href="generatorPage.html" class="button">Resume Generator</a>
+</div>
 
 </body>
 </html>

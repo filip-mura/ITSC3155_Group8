@@ -2,9 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Resume Editor</title>
+    <link href="css/finalStyle.css" rel="stylesheet">
+    <script src="js/editorScript.js"></script>
 </head>
-<body>
 
+<body>
+<header>
+    <h1>Resume editor</h1>
+</header>
+
+<button type="button" onclick="bold()" title="Bold">Bold</button>
+<button type="button" onclick="italic()" title="Italic">Italic</button>
+<button type="button" onclick="leftAlign()"title="Left">Left Align</button>
+<button type="button" onclick="centerAlign()"title="Center">Center</button>
+<button type="button" onclick="rightAlign()"title="Right">Right Align</button>
+<button type="button" onclick="clear()" title="clear">Clear</button>
+
+<br>
+<textarea id="doc" class="input shadow" name="name" rows="15" cols="100" placeholder="Your text here "></textarea>
+    <br>
+    <button id ="save-button">Save</button>
+
+<nav class="sidenav">
+    <a href="menuPage.html">Menu</a>
+    <a href="generatorPage.html">Resume Generator</a>
+    <a href="editorPage.html">Resume Editor</a>
+    <a href="toolsPage.html">Tools</a>
+    <a href="signupPage.html">Sign Up</a>
+    <a href="accountPage.html">Account</a>
+    <a href="settingsPage.html">Settings</a>
+</nav>
 </body>
 </html>
