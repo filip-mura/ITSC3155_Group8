@@ -1,3 +1,3 @@
 function login() {
-    alert("You are logged in!");
+    location.assign("menuPage.html");
 }

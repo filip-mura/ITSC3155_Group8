@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3fb0c39-f468-4c76-9d64-3b94af4d4297" name="Changes" comment="" />
+    <list default="true" id="d3fb0c39-f468-4c76-9d64-3b94af4d4297" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ITSC3155_Group8/accountPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITSC3155_Group8/editorPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITSC3155_Group8/finalScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITSC3155_Group8/finalStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITSC3155_Group8/generatorPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITSC3155_Group8/menuPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITSC3155_Group8/settingsPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITSC3155_Group8/signupPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITSC3155_Group8/toolsPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITSC3155_Group8/welcomePage.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +24,9 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,6 +53,7 @@
       <updated>1651518456721</updated>
       <workItem from="1651518459133" duration="8741000" />
       <workItem from="1651532863909" duration="97000" />
+      <workItem from="1651609213866" duration="4348000" />
     </task>
     <servers />
   </component>
